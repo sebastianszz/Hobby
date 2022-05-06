@@ -1,0 +1,130 @@
+/* ! */
+/* !Alinea elementos horizontalmente y acepta los siguientes valores: */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/justify-content */
+.justify-content {
+  /* flex-start: Alinea elementos al lado izquierdo del contenedor. */
+  justify-content: flex-start; /* ?Default */
+
+  /* flex-end: Alinea elementos al lado derecho del contenedor. */
+  justify-content: flex-end;
+
+  /* center: Alinea elementos en el centro del contenedor. */
+  justify-content: center;
+
+  /* space-between: Muestra elementos con la misma distancia entre ellos. */
+  justify-content: space-between;
+
+  /* space-around: Muestra elementos con la misma separación alrededor de ellos. */
+  justify-content: space-around;
+}
+/* ! */
+/* !Alinea elementos verticalmente y acepta los siguientes valores: */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/align-items */
+.align-items {
+  /* flex-start: Alinea elementos a la parte superior del contenedor. */
+  align-items: flex-start;
+
+  /* flex-end: Alinea elementos a la parte inferior del contenedor. */
+  align-items: flex-end;
+
+  /* center: Alinea elementos en el centro (verticalmente hablando) del contenedor. */
+  align-items: center;
+
+  /* baseline: Muestra elementos en la línea base del contenedor */
+  align-items: baseline;
+
+  /* stretch: Elementos se estiran para ajustarse al contenedor. */
+  align-items: stretch; /* ?Default */
+}
+/* ! */
+/* !Define la dirección de los elementos en el contenedor, y acepta los siguientes valores: */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/flex-direction */
+.flex-direction {
+  /* row: Elementos son colocados en la misma dirección del texto. */
+  flex-direction: row; /* ?Default */
+
+  /* row-reverse: Elementos son colocados en la dirección opuesta al texto. */
+  flex-direction: row-reverse;
+
+  /* column: Elementos se colocan de arriba hacia abajo. */
+  flex-direction: column;
+
+  /* column-reverse: Elementos se colocan de abajo hacia arriba. */
+  flex-direction: column-reverse;
+}
+/* ! */
+/* !Por defecto, los elementos tienen un valor 0 */
+/* !pero nosotros podemos usar esta propiedad para establecerlo a un número entero positivo o negativo. */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/order */
+.order {
+  /* No altera los items */
+  order: 0; /* ?Default */
+
+  /* Altera la dirección hacia la Derecha */
+  order: 1;
+
+  /* Altera la dirección hacia la Izquierda */
+  order: -1;
+}
+/* ! */
+/* !Esta propiedad acepta los mismos valores de align-items y sus valores son usados para un elemento específico. */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/align-self */
+.align-self {
+  /* flex-start: Alinea elementos a la parte superior del contenedor. */
+  align-self: flex-start;
+
+  /* flex-end: Alinea elementos a la parte inferior del contenedor. */
+  align-self: flex-end;
+
+  /* center: Alinea elementos en el centro (verticalmente hablando) del contenedor. */
+  align-self: center;
+
+  /* baseline: Muestra elementos en la línea base del contenedor */
+  align-self: baseline;
+
+  /* stretch: Elementos se estiran para ajustarse al contenedor. */
+  align-self: stretch;
+}
+/* ! */
+/* !distribuye correctamente los elementos */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/flex-wrap */
+.flex-wrap {
+  /* nowrap: Cada elemento se ajusta en una sola línea. */
+  flex-wrap: nowrap; /* ?Default */
+
+  /* wrap: los elementos se envuelven alrededor de líneas adicionales. */
+  flex-wrap: wrap;
+
+  /* wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa. */
+  flex-wrap: wrap-reverse;
+}
+/* ! */
+/* !flex-flow: fue creada para combinar Las dos propiedades flex-direction y flex-wrap. */
+/* !Esta propiedad abreviada, acepta un valor de cada una separada por un espacio. */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/flex-flow */
+.flex-flow {
+  /* <flex-direction> <flex-wrap> */
+  flex-flow: column wrap;
+}
+/* ! */
+/* !align-content: para establecer como múltiples líneas están separadas una de otra. */
+/* 'https://developer.mozilla.org/es/docs/Web/CSS/align-content?msclkid=9fc9580acd7f11ec97cbb25f520db269 */
+.align-content {
+  /* flex-start: Las líneas se posicionan en la parte superior del contenedor. */
+  align-content: flex-start;
+
+  /* flex-end: Las líneas se posicionan en la parte inferior del contenedor. */
+  align-content: flex-end;
+
+  /* center: Las líneas se posicionan en el centro (verticalmente hablando) del contenedor. */
+  align-content: center;
+
+  /* space-between: Las líneas se muestran con la misma distancia entre ellas. */
+  align-content: space-between;
+
+  /* space-around: Las líneas se muestran con la misma separación alrededor de ellas. */
+  align-content: space-around;
+
+  /* stretch: Elementos se estiran para ajustarse al contenedor. */
+  align-content: stretch;
+}

@@ -128,3 +128,9 @@
   /* stretch: Elementos se estiran para ajustarse al contenedor. */
   align-content: stretch;
 }
+/* ! */
+/* ! */
+.flex-grow {
+  /*? 1 = 100% //// 0.2 = 20% */
+  flex-grow: 1;
+}
